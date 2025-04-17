@@ -17,6 +17,6 @@ jobs:
         uses: kapstan-io/deployment-action@rahul-github-action-e2e 
         with:  
           application_name: e2e-imcty
-          image_tag: nginx
+          image_tag: latest
           kapstan_api_key: ${{ secrets.KAPSTAN_API }}
           wait_for_deployment: true 
